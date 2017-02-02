@@ -1,0 +1,16 @@
+body {
+	margin:0px;
+	background-color: #2a2a2a;
+}
+header {
+	background-color: #808080;
+	height: 50px;
+
+
+}
+header p {
+	margin:0px;
+	font-size: 22px;
+	color: #000080;
+	padding-top: 10px;
+}
