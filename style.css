@@ -2,11 +2,15 @@ body {
 	margin:0px;
 	background-color: #2a2a2a;
 }
+h1 {
+	color: #007FFF;
+}
+h6 {
+	padding-top: 50px;
+}
 header {
 	background-color: #808080;
 	height: 50px;
-
-
 }
 header p {
 	margin:0px;
@@ -14,3 +18,90 @@ header p {
 	color: #000080;
 	padding-top: 10px;
 }
+#container {
+	background-color: #2a2a3a;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	margin-top: 30px;
+}
+#ico {
+	margin-top: 20px;
+}
+#leftdiv {
+	width: 68%;
+	float: left;
+	color: #00bfff;
+	background-color: #151515;
+	font-size: 20px;
+	padding: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#leftdiv img {
+	float: right;
+	margin-left: 15px;
+	height: 285px;
+}
+#rightdiv {
+	padding-bottom: 30px;
+	padding-left: 15px;
+	width: 27%;
+	float: right;
+	height: 340.82px;
+	background-color: #151515;
+	color: #00d4ff;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#botdiv {
+	height: 300px;
+	width: 100%;
+	float: right;
+	background-color: #007FFF;
+	padding-top: 30px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#eddiv {
+	margin-left: 50px;
+	margin-right: 75px;
+	font-size: 25px;
+	float: left;
+	border: ridge;
+	border-width: 5px; 
+	border-color: #00FF00;
+	padding: 5px;
+}
+#projdiv {
+	font-size: 25px;
+	border: ridge;
+	border-width: 5px;
+	border-color: #ff0000;
+	float: left;
+	padding: 5px;
+}
+#rightdiv img {
+	margin-top: 45px;
+}
+<style>
+.dropdown {	
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+
+.dropdown-content {
+	font-size: 14px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    display: none;
+    position: absolute;
+    background-color: #ADD8E8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 6px 8px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
